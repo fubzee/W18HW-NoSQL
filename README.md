@@ -51,18 +51,18 @@ To enable a social network, web application to capture and store information abo
 All tesing of the API routes were done using Insomnia.  The links above porvide videos demonstrating the API functionality:
 ![image](https://user-images.githubusercontent.com/94102473/162765254-8d7afe0c-da42-4d09-bcee-f75b7361e357.png)
 
-|  **CRUD** 	|        C       	|                                   	|        R1        	|                                   	|       Rn       	|                                   	|      U     	|                             	|        D       	|                                  	|
+|  **CRUD** 	|        C       	|                                   	|        R1        	|                                   	|       Rn*      	|                                   	|      U     	|                             	|        D       	|                                  	|
 |:---------:	|:--------------:	|:---------------------------------:	|:----------------:	|:---------------------------------:	|:--------------:	|:---------------------------------:	|:----------:	|:---------------------------:	|:--------------:	|----------------------------------	|
 | User      	| createUser     	| Email Validation is invoked       	| getUsers         	|                                   	|  getSingleUser 	|                                   	| putUser    	| Email Validation is invoked 	| deleteUser     	| Includes the removal of thoughts 	|
-| Friends   	| addFriend      	|                                   	|                  	|                                   	|                	|                                   	|            	|                             	| deleteFriend   	|                                  	|
+| Friends   	| addFriend      	|  Increments the Virtual Counter                                	|                  	|                                   	|                	|                                   	|            	|                             	| deleteFriend   	|                                  	|
 | Thoughts  	| createThought  	| Includes reformatted display date 	| getSingleThought 	| Includes reformatted display date 	| getThoughts    	| Includes reformatted display date 	| putThought 	|                             	| deleteThought  	|                                  	|
 | Reactions 	| createReaction 	| Increments the Virtual Counter    	|                  	|                                   	|                	|                                   	|            	|                             	| deleteReaction 	|                                  	|
 |           	|                	|                                   	|                  	|                                   	|                	|                                   	|            	|                             	|                	|                                  	|
 
-
+*n-many
 ## GIT Profile :link:
 --- 
-For details around other work please see : 
+For details around other work please see : https://github.com/fubzee
 
 ### Questions :question:
 ---
